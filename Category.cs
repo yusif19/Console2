@@ -17,7 +17,7 @@ namespace ConsoleAppAptek
         {
             _id++;
             Id = _id;
-            Name = name;
+            Name = name.Capitalize();
         }
     }
 }

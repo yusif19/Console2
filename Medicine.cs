@@ -16,7 +16,7 @@ namespace ConsoleAppAptek
         {
             _count++;
             Count = _count;
-            Name = name;
+            Name = name.Capitalize();
             Price = price;
             
         }
